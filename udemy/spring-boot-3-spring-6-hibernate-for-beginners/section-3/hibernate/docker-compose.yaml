@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+
+  learnjava_db:
+    image: postgres
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./docker/init-db.sh:/docker-entrypoint-initdb.d/db.sh
+
+volumes:
+  postgres-data:
