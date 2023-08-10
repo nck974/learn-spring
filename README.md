@@ -147,3 +147,12 @@ This repository contains my steps learning spring.
 
 1. Finish Practice project AOP:
     1. Create logging aspects for controller, service and dao centralized in an aspect.
+
+## Day 19
+
+1. Start project `diogenes` from scratch.
+    1. Create a new project from [spring.io](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.1.2&packaging=jar&jvmVersion=17&groupId=dev.nichoko&artifactId=diogenes&name=diogenes&description=A%20home%20inventory%20app&packageName=dev.nichoko.diogenes&dependencies=devtools,data-jpa,postgresql,web,flyway) with JPA, flyway, postgres, web and dev tools.
+    1. Setup database:
+        1. Create a new database in docker with a specific user.
+        1. Setup the initial database with two tables related one to one with `flyway`.
+    1. Initialize spring properties to connect to the database and apply the migrations.
