@@ -156,3 +156,9 @@ This repository contains my steps learning spring.
         1. Create a new database in docker with a specific user.
         1. Setup the initial database with two tables related one to one with `flyway`.
     1. Initialize spring properties to connect to the database and apply the migrations.
+
+## Day 20
+
+1. Project `diogenes`:
+    1. Create entities of the database with `JPA`.
+    1. Make use of `Spring data REST` to create CRUD endpoints.
