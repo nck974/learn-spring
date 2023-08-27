@@ -162,3 +162,32 @@ This repository contains my steps learning spring.
 1. Project `diogenes`:
     1. Create entities of the database with `JPA`.
     1. Make use of `Spring data REST` to create CRUD endpoints.
+
+## Day 21
+
+1. Project `diogenes`:
+    1. Discard `Spring data REST` because is to coupled with `HATEOS`.
+    1. Continue the project with repository, service, controller architecture with a major refactoring.
+    1. Remove `keycloak` to simplify project.
+
+## Day 22
+
+1. Project `diogenes`:
+    1. Create `Category` entity, service, and controller.
+    1. Create unit tests for `Category`.
+
+## Day 23
+
+1. Project `diogenes`:
+    1. Update item to contain the `OneToOne` relation and update services and controller to require a valid category for an item.
+    1. New bug: Unit tests are failing for getting and updating items.
+
+## Day 24
+
+1. Project `diogenes`:
+    1. Allow cross origin requests to be used by angular frontend.
+
+## Day 25
+
+1. Project `diogenes`:
+    1. Allow cross origin to all clients using the angular frontend.
