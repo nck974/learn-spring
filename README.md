@@ -191,3 +191,9 @@ This repository contains my steps learning spring.
 
 1. Project `diogenes`:
     1. Allow cross origin to all clients using the angular frontend.
+
+## Day 26
+
+1. Project `diogenes`:
+    1. Extend items filter to allow filtering by the id of the join table of the model.
+    1. Improve test coverage.
