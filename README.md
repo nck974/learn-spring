@@ -197,3 +197,22 @@ This repository contains my steps learning spring.
 1. Project `diogenes`:
     1. Extend items filter to allow filtering by the id of the join table of the model.
     1. Improve test coverage.
+
+## Day 27
+
+1. Learn how to set up redundant endpoints with different content types.
+1. Project `diogenes`:
+    1. Receive files and models together in a controller to receive images.
+
+## Day 28
+
+1. Project `diogenes`:
+    1. Start storing files within the filesystem and make it configurable.
+    1. Create an endpoint to retrieve images.
+    1. Change service to alter the filenames stored in the database.
+
+## Day 29
+
+1. Project `diogenes`:
+    1. Create an endpoint to delete and to update the images associated to an item.
+    1. Make use of a file system repository to store the images.
