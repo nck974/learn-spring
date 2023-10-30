@@ -216,3 +216,27 @@ This repository contains my steps learning spring.
 1. Project `diogenes`:
     1. Create an endpoint to delete and to update the images associated to an item.
     1. Make use of a file system repository to store the images.
+
+## Day 30
+
+1. Research JWT workflow in spring.
+
+## Day 31
+
+1. Project `diogenes`:
+    1. First implementation of using JWT.
+
+## Day 32
+
+1. Project `diogenes`:
+    1. Continue working on JWT. In memory authentication works but the roles are not working yet.
+
+## Day 33
+
+1. Project `diogenes`:
+    1. Fix issue with authentication roles, getRoles builds over prefixing `ROLE_` in one authority.
+
+## Day 34
+
+1. Project `diogenes`:
+    1. Recreate authentication using mostly spring methods to authenticate and authorize the user. Use custom JWT implementation.
