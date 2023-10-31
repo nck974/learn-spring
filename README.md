@@ -240,3 +240,8 @@ This repository contains my steps learning spring.
 
 1. Project `diogenes`:
     1. Recreate authentication using mostly spring methods to authenticate and authorize the user. Use custom JWT implementation.
+
+## Day 35
+
+1. Project `diogenes`:
+    1. Update content types to return plain tokens.
