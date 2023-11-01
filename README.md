@@ -245,3 +245,8 @@ This repository contains my steps learning spring.
 
 1. Project `diogenes`:
     1. Update content types to return plain tokens.
+
+## Day 36
+
+1. Project `diogenes`:
+    1. Create flyway scripts to set up default users and roles on the first initialization of the database.
